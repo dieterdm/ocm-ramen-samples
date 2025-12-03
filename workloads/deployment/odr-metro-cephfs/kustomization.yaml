@@ -9,7 +9,7 @@ patches:
     patch: |-
       - op: replace
         path: /spec/storageClassName
-        value: ocs-storagecluster-cephfs
+        value: ocs-external-storagecluster-cephfs
       - op: replace
         path: /spec/accessModes
         value:
